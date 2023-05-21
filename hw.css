@@ -1,0 +1,13 @@
+img {
+    max-width: 200px;
+}
+
+.busket {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 200px;
+}
+
