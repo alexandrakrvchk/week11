@@ -1,8 +1,3 @@
-//let price = document.querySelector('.item_price');
-
-
-
-
 let price1 = document.querySelector('#price1');
 price1 = Number(1999);
 
@@ -22,12 +17,16 @@ let sumprice = document.querySelector('.summ');
 sumprice.textContent = sum;
 
 function countdiscount() {
-    sumprice * 0.8;
+    let discountPrice = sum * 0.8;
+    let pricediscount = document.querySelector('.summ');
+    pricediscount.textContent = discountPrice;
 }
 
-countdiscount();
 
-countdiscount() = Number(10396.8);
 
-let pricediscount = document.querySelector('.summ');
-pricediscount.textContent = countdiscount();
+
+
+
+
+
+
